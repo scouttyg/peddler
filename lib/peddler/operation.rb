@@ -23,7 +23,7 @@ module Peddler
       self
     end
 
-    def store(key, val, parent: '')
+    def store(key, val, parent= '')
       key = camelize(key) if key.is_a?(Symbol)
       key = "#{parent}.#{key}" unless parent.empty?
 
