@@ -5,7 +5,7 @@ require 'peddler/version'
 
 Gem::Specification.new do |gem|
   gem.name        = 'peddler'
-  gem.version     = Peddler::VERSION
+  gem.version     = '1.6.1'
   gem.platform    = Gem::Platform::RUBY
   gem.authors     = ['Hakan Ensari']
   gem.email       = ['me@hakanensari.com']
